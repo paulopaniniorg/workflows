@@ -2,10 +2,6 @@ name: Maven Package
 
 on:
   workflow_call:
-    inputs:
-      project_name:
-        required: true
-        type: string
 
 jobs:
   build:
