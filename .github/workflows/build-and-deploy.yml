@@ -2,13 +2,8 @@ on:
   workflow_call:
     inputs:
       environment:
-        description: 'Environment to deploy'
         required: true
-        default: 'uat'
-        type: choice
-        options:
-        - uat
-        - production
+        type: string
       project_name:
         required: true
         type: string
