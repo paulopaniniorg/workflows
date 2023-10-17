@@ -4,6 +4,9 @@ on:
       environment:
         required: true
         type: string
+    secrets: 
+      API_GITHUB_TOKEN:
+        required: true
 
 jobs:
   build:
